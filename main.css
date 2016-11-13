@@ -15,9 +15,26 @@
 body {
   font-family: 'exo2',Verdana, Arial, Helvetica, sans-serif;
 }
-body h1, body h2 {
+body h1, body h2, body ul{
   font-family: "eurostile",Verdana, Arial, Helvetica, sans-serif;
 }
-body ul {
+body footer {
+  background-color: #3f3f3f;
   font-family: "eurostile",Verdana, Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+table {
+  background-color: #f7f7f7;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+nav a:hover, footer a:hover {
+  color: #fc0f00;
 }
