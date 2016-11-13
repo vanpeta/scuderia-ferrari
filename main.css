@@ -14,6 +14,7 @@
 }
 body {
   font-family: 'exo2',Verdana, Arial, Helvetica, sans-serif;
+  margin: 0px;
 }
 body h1, body h2, body ul{
   font-family: "eurostile",Verdana, Arial, Helvetica, sans-serif;
@@ -22,10 +23,24 @@ body footer {
   background-color: #3f3f3f;
   font-family: "eurostile",Verdana, Arial, Helvetica, sans-serif;
   color: white;
+  height: 2em;
+  line-height: 2em;
+  text-align: right;
 }
-
-table {
-  background-color: #f7f7f7;
+ul {
+  list-style: none;
+}
+nav ul {
+  width: 80%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  padding: 0px;
+}
+nav li {
+  display: inline-block;
+  width: 33%;
+  height: 3em;
+  line-height: 3em;
 }
 nav a {
   text-decoration: none;
@@ -37,4 +52,23 @@ footer a {
 }
 nav a:hover, footer a:hover {
   color: #fc0f00;
+}
+main img {
+  display: block;
+  margin: auto;
+}
+article {
+  width: 90%;
+  margin: auto;
+  padding: 1em 0 1em 0;
+}
+h2 {
+  text-align: center;
+}
+.results {
+  background-color: #f7f7f7;
+}
+table {
+  border: 1px solid black;
+  margin: auto;
 }
