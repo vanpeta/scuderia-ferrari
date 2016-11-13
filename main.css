@@ -1,0 +1,23 @@
+@font-face{
+  font-family: "eurostile";
+  src: url('./assets/Eurofont.woff2') format('woff2');
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+}
+@font-face{
+  font-family: "exo2";
+  src: url('./assets/exofont.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+}
+body {
+  font-family: 'exo2',Verdana, Arial, Helvetica, sans-serif;
+}
+body h1, body h2 {
+  font-family: "eurostile",Verdana, Arial, Helvetica, sans-serif;
+}
+body ul {
+  font-family: "eurostile",Verdana, Arial, Helvetica, sans-serif;
+}
