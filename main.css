@@ -15,15 +15,13 @@
 body {
   font-family: 'exo2',Verdana, Arial, Helvetica, sans-serif;
   margin: 0px;
-  background: #ffffff;
-background: -moz-linear-gradient(left,  #ffffff 86%, #fc0f00 100%);
-background: -webkit-gradient(linear, left top, right top, color-stop(86%,#ffffff), color-stop(100%,#fc0f00));
-background: -webkit-linear-gradient(left,  #ffffff 86%,#fc0f00 100%);
-background: -o-linear-gradient(left,  #ffffff 86%,#fc0f00 100%);
-background: -ms-linear-gradient(left,  #ffffff 86%,#fc0f00 100%);
-background: linear-gradient(to right,  #ffffff 86%,#fc0f00 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fc0f00',GradientType=1 );
-
+  background: -moz-linear-gradient(left,  #ffffff 86%, #fc0f00 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(86%,#ffffff), color-stop(100%,#fc0f00));
+  background: -webkit-linear-gradient(left,  #ffffff 86%,#fc0f00 100%);
+  background: -o-linear-gradient(left,  #ffffff 86%,#fc0f00 100%);
+  background: -ms-linear-gradient(left,  #ffffff 86%,#fc0f00 100%);
+  background: linear-gradient(to right,  #ffffff 86%,#fc0f00 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fc0f00',GradientType=1 );
 }
 body h1, body h2, body ul{
   font-family: "eurostile",Verdana, Arial, Helvetica, sans-serif;
@@ -71,6 +69,7 @@ nav a:hover, footer a:hover {
 main img {
   display: block;
   margin: auto;
+  margin-top: 50px;
 }
 article {
   width: 90%;
@@ -94,3 +93,64 @@ table {
   border: 1px solid black;
   margin: auto;
 }
+#logo {
+  float: left;
+}
+figcaption {
+  font-size: .75em;
+}
+#headquarters {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#alonso {
+  float: right;
+}
+#caballino {
+  float: left;
+}
+#caballino img{
+  width: 100px;
+}
+#f1940 {
+  float: right;
+  margin-top: 0;
+}
+#f1940 img{
+  height: 300px;
+}
+#year50s {
+  clear: right;
+}
+#year50s figure {
+  float: left;
+  margin-left: 0;
+}
+#year50s img {
+  width: 300px;
+}
+#year1960s figure{
+  float: right;
+}
+#year1970s figure{
+  float: left;
+  margin-left: 0;
+}
+#year1980s figure {
+  float: left;
+  margin-left: 0;
+}
+#year1980s img{
+  width: 400px;
+}
+
+
+
+
+
+
+
+
+
