@@ -12,6 +12,7 @@
   font-weight: normal;
   font-stretch: normal;
 }
+
 body {
   font-family: 'exo2',Verdana, Arial, Helvetica, sans-serif;
   margin: 0px;
@@ -25,6 +26,9 @@ body {
 }
 body h1, body h2, body ul{
   font-family: "eurostile",Verdana, Arial, Helvetica, sans-serif;
+}
+.menu {
+  display: none;
 }
 body footer {
   background-color: #3f3f3f;
@@ -146,7 +150,35 @@ figcaption {
   width: 400px;
 }
 
+ @media only screen and (max-width: 480px) {
+  article,
+  main {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  nav {
+    display: none;
+  }
+  .menu {
+    display: inline-block;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    line-height: .9em;
+    padding: 0 3px 0 3px;
+    margin: 20px 0 10px 10px;
 
+  }
+  img {
+    width: 100%;
+  }
+  h1,
+  h2 {
+    text-align: left;
+  }
+  #f1940 img {
+    height: auto;
+  }
+}
 
 
 
